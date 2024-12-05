@@ -96,13 +96,13 @@ if (!array_key_exists($seccion, $secciones_validas)) {
                         <a class="nav-link text-light"text-light href="index.php?sec=quienes_somos">¿Quienes Somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="index.php?sec=departamentos&">Departamentos</a>
+                        <a class="nav-link text-light" href="index.php?sec=inmobiliaria&inmo=1">Departamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="index.php?sec=comics&pj=2">Casas</a>
+                        <a class="nav-link text-light" href="index.php?sec=inmobiliaria&inmo=2">Casas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="index.php?sec=comics&pj=3">Phs</a>
+                        <a class="nav-link text-light" href="index.php?sec=inmobiliaria&inmo=3">Phs</a>
                     </li>
                     <div class="dropdown">
                         <button class="btn dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" >
@@ -121,22 +121,6 @@ if (!array_key_exists($seccion, $secciones_validas)) {
             </div>
         </div>
     </nav>
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

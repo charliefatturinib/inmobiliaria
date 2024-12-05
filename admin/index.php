@@ -131,6 +131,12 @@ if (!array_key_exists($seccion, $secciones_validas)) {
     ?>
   </main>
 
+
+
+
+
+
+  
   <footer class="bg-secondary">
     <p class="text-light text-center p-4">Todos los derechos reservados - 2024 - CFP20</p>
   </footer>

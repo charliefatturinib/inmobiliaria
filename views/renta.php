@@ -5,7 +5,7 @@ $id = $_GET['id'] ?? FALSE;
 
 $miObjetoinmueble = new Inmueble();
 
-$inmueble = $miObjetoinmueble->producto_x_id($id);
+$inmueble = $miObjetoinmueble->renta_x_id($id);
 
 
 

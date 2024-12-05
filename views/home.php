@@ -55,7 +55,7 @@
                 <h3>Departamento en Alquiler</h3>
                 <p>La nave en la que viaja la princesa Leia es capturada por las tropas imperiales al mando del temible Darth Vader. Antes de ser atrapada, Leia consigue introducir un mensaje en su robot R2-D2, quien acompañado de su inseparable C-3PO logra escapar. </p>
                 <div class="link">
-                    <a href="posicion.php?posicion=peliculas">Departamento</a>
+                    <a href="">Departamento</a>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 <h3>PH en Alquier</h3>
                 <p>Ahsoka Tano es un personaje ficticio que aparece en la franquicia Star Wars. Presentada como la padawan jedi de Anakin Skywalker, es un personaje principal en la película animada de 2008 Star Wars: The Clone Wars y la serie de televisión posterior.</p>
                 <div class="link">
-                    <a href="posicion.php?posicion=peliculas">PH</a>
+                    <a href="">PH</a>
                 </div>
             </div>
         </div>
