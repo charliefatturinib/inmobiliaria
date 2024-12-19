@@ -12,7 +12,7 @@ $mensaje = $_POST['mensaje'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda :: Mensaje enviado</title>
+    <title>Mensaje enviado</title>
 
     <style>
         body {

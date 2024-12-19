@@ -1,4 +1,3 @@
-
 <!--CARRUSEL -->
 
 <div id="carouselExampleAutoplaying" class="carousel slide mx-auto" data-bs-ride="carousel">
@@ -40,7 +39,7 @@
                 <h3>Departamento en venta</h3>
                 <p>Treinta años después de haber derrotado al Imperio, una nueva amenaza se cierne sobre la República. El terrible y enigmático guerrero Kylo Ren ha reunido un ejército de leales al Imperio, que se hace llamar la Primera Orden y ataca a la Alianza. .</p>
                 <div class="link">
-                    <a href="">Departamento</a>
+                    <a href="index.php?sec=inmobiliaria&inmo=1">Departamento</a>
                 </div>
             </div>
         </div>
@@ -55,7 +54,7 @@
                 <h3>Departamento en Alquiler</h3>
                 <p>La nave en la que viaja la princesa Leia es capturada por las tropas imperiales al mando del temible Darth Vader. Antes de ser atrapada, Leia consigue introducir un mensaje en su robot R2-D2, quien acompañado de su inseparable C-3PO logra escapar. </p>
                 <div class="link">
-                    <a href="">Departamento</a>
+                    <a href="index.php?sec=inmobiliaria&inmo=1">Departamento</a>
                 </div>
             </div>
         </div>
@@ -69,7 +68,7 @@
                 <h3>PH en Alquier</h3>
                 <p>Ahsoka Tano es un personaje ficticio que aparece en la franquicia Star Wars. Presentada como la padawan jedi de Anakin Skywalker, es un personaje principal en la película animada de 2008 Star Wars: The Clone Wars y la serie de televisión posterior.</p>
                 <div class="link">
-                    <a href="">PH</a>
+                    <a href="index.php?sec=inmobiliaria&inmo=3">PH</a>
                 </div>
             </div>
         </div>
@@ -89,7 +88,7 @@
 
         <div class="col-4">
             <div class="card" style="overflow: hidden;">
-                <img src="img/casas/casa card 1.jpg" class="card-img-top" alt="...">
+                <img src="img/card principal/casa card 1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Casas</h5>
                     <p class="card-text">Nuestras casas son edificios para habitar en un ambiente... </p>
@@ -100,16 +99,16 @@
                     <li class="list-group-item">Casas Antiguas</li>
                 </ul>
                 <div class="card-body text-center">
-                    <a href="index.php?sec=inmobiliaria&=casa" class="card-link btn btn-warning fw-bold">ENTRAR</a>
+                    <a href="index.php?sec=inmobiliaria&inmo=2" class="card-link btn btn-warning fw-bold">ENTRAR</a>
                 </div>
             </div>
         </div>
 
-        
 
-         <div class="col-4">
+
+        <div class="col-4">
             <div class="card" style="overflow: hidden;">
-                <img src="img/casas/card departamento.jpg" class="card-img-top" alt="...">
+                <img src="img/card principal/depdestacados1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Departamentos</h5>
                     <p class="card-text">Nuestras unidades de viviendas que comprenden una o más... </p>
@@ -120,17 +119,17 @@
                     <li class="list-group-item">Dep Antiguo</li>
                 </ul>
                 <div class="card-body text-center">
-                    <a href="index.php?sec=tipos&ind=departamento" class="card-link text-center btn btn-warning fw-bold">ENTRAR</a>
+                    <a href="index.php?sec=inmobiliaria&inmo=2" class="card-link text-center btn btn-warning fw-bold">ENTRAR</a>
                 </div>
             </div>
         </div>
 
-        
+
 
 
         <div class="col-4">
             <div class="card" style="overflow: hidden;">
-                <img src="img/casas/card ph.jpg" class="card-img-top" alt="...">
+                <img src="img/card principal/card ph.jpg" class="card-img-top" alt="...">
                 <div class="card-body overflow: hidden;">
                     <h5 class="card-title">PH</h5>
                     <p class="card-text">Los llamados PH, viviendas que tienen un diseño que reúne... </p>
@@ -141,7 +140,7 @@
                     <li class="list-group-item">Antiguas</li>
                 </ul>
                 <div class="card-body text-center">
-                    <a href="index.php?sec=tipos&ind=ph" class="card-link btn btn-warning fw-bold">ENTRAR</a>
+                    <a href="index.php?sec=inmobiliaria&inmo=3" class="card-link btn btn-warning fw-bold">ENTRAR</a>
                 </div>
             </div>
 
@@ -156,8 +155,8 @@
 <h2 class="text-warning bg-secondary text-center mt-5 ">TODOS NUESTROS INMUEBLES</h2>
 <div class="mt-1 mb-5">
 
-        <a href="index.php?sec=todos">
-            <img width="400" class="d-block mx-auto mt-5" src="img/logo/logo.png" alt="">
-        </a>
+    <a href="index.php?sec=todos">
+        <img width="400" class="d-block mx-auto mt-5" src="img/logo/logo.png" alt="">
+    </a>
 
 </div>

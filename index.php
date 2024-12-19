@@ -8,7 +8,7 @@ $secciones_validas = [
         "titulo" => ""
     ],
     "sobre_nosotros" => [
-        "titulo" => "¿Quienes Somos?"
+        "titulo" => "Sobre Nosotros"
     ],
     "departamentos" => [
         "titulo" => "Departamentos"
@@ -20,7 +20,7 @@ $secciones_validas = [
         "titulo" => "Detalles de la Renta"
     ],
     "todos" => [
-        "titulo" => "Todos los productos"
+        "titulo" => "Todas las Propiedades"
     ],
     "contacto" => [
         "titulo" => "Contacto"
@@ -60,7 +60,7 @@ if (!array_key_exists($seccion, $secciones_validas)) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A-S-B Inmobiliaria<?= $titulo  ?></title>
+    <title>ASB Inmobiliaria<?= $titulo  ?></title>
 
     <link rel="stylesheet" href="css/estilos.css">
 
@@ -82,7 +82,7 @@ if (!array_key_exists($seccion, $secciones_validas)) {
         <div class="container-fluid ">
             <a class="navbar-brand" href="index.php?sec=home"> <img width="70" height="50" class="m-1" src="img/logo/logo.png" alt=""></a>
       <a class="navbar-brand" href="index.php">
-        <p class="fw-bold fs-4 mt-3 text-warning">A-S-B Inmobiliaria</p>
+        <p class="fw-bold fs-4 mt-3 text-warning">ASB Inmobiliaria</p>
       </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -93,7 +93,7 @@ if (!array_key_exists($seccion, $secciones_validas)) {
                         <a class="nav-link text-light" aria-current="page" href="index.php?sec=home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light"text-light href="index.php?sec=quienes_somos">¿Quienes Somos?</a>
+                        <a class="nav-link text-light"text-light href="index.php?sec=sobre_nosotros">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="index.php?sec=inmobiliaria&inmo=1">Departamentos</a>

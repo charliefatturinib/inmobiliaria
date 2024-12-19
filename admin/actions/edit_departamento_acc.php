@@ -12,17 +12,17 @@
         $inmueble = new Departamento();
 
         if(!empty($fileData['tmp_name'])){
-            if(!empty($postData['portada'])){
-                (new Imagen())->borrarImagen(__DIR__ . "/../../img/casas/departamentos" . $postData['portada']);
+            if(!empty($postData['imagen'])){
+                (new Imagen())->borrarImagen(__DIR__ . "/../../img/casas/departamentos" . $postData['iamen']);
             }
 
             $imagen = (new Imagen())-> subirImagen(__DIR__ . "/../../img/casas/departamentos" , $fileData);
 
-            $inmueble->reemplazar_imagen($imagen, $id);
+            $inmo->reemplazar_imagen($imagen, $id);
 
         }
 
-        $inmueble->edit(
+        $inmo->edit(
             $postData['tipo'],
             $postData['venta'],
             $postData['barrio'],

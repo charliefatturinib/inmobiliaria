@@ -105,13 +105,13 @@ if (!array_key_exists($seccion, $secciones_validas)) {
             <a class="nav-link" aria-current="page" href="index.php?sec=dashboard">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.php?sec=admin_departamentos">Admin de Departamentos</a>
+            <a class="nav-link" aria-current="page" href="index.php?sec=admin_departamento">Admin de Departamentos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.php?sec=admin_phs">Admin de Phs</a>
+            <a class="nav-link" aria-current="page" href="index.php?sec=admin_ph">Admin de Phs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.php?sec=admin_casas">Admin de Casas</a>
+            <a class="nav-link" aria-current="page" href="index.php?sec=admin_casa">Admin de Casas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.php?sec=login">Login</a>

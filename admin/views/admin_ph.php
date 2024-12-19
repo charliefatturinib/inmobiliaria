@@ -1,5 +1,5 @@
 <?php
-$inmobiliaria = (new Casa())->catalogo_completo();
+$inmobiliaria = (new Ph())->catalogo_completo();
 
 /* echo "<pre>";
     print_r($personaje);
@@ -31,20 +31,20 @@ $inmobiliaria = (new Casa())->catalogo_completo();
                 </thead>
                 <tbody>
 
-                <?php  foreach($inmobiliaria as $c){  ?>
+                <?php  foreach($inmobiliaria as $i){  ?>
 
                     <tr>
-                        <td><img src="../ <?= $c->getPortada() ?>" class="img-fluid rounded" alt=""></td>
-                        <th scope="row"><?=  $c->nombre_completo() ?></th>
-                        <td><?=  $c->getTitulo() ?></td>
-                        <td><?=  $c->getBajada() ?></td>
-                        <td><?=  $c->getGuion() ?></td>
-                        <td><?=  $c->getArte() ?></td>
-                        <td><?=  $c->getPrecio() ?></td>
+                        <td><img src="../ <?= $i->getPortada() ?>" class="img-fluid rounded" alt=""></td>
+                        <th scope="row"><?=  $i->getTipo() ?></th>
+                        <td><?=  $i->getVenta() ?></td>
+                        <td><?=  $i->getBarrio() ?></td>
+                        <td><?=  $i->getCalle() ?></td>
+                        <td><?=  $i->getAmbientes() ?></td>
+                        <td><?=  $i->getCondicion() ?></td>
                         <td>
-                            <a class="btn btn-warning" href="index.php?sec=edit_casa&id=<?= $c->getId() ?>">Editar</a>
+                            <a class="btn btn-warning" href="index.php?sec=edit_casa&id=<?= $i->getId() ?>">Editar</a>
 
-                            <a class="btn btn-danger mt-2" href="index.php?sec=delete_casa&id=<?= $c->getId() ?>">Eliminar</a>
+                            <a class="btn btn-danger mt-2" href="index.php?sec=delete_casa&id=<?= $i->getId() ?>">Eliminar</a>
                         </td>
                     </tr>
 
@@ -53,7 +53,7 @@ $inmobiliaria = (new Casa())->catalogo_completo();
                 </tbody>
             </table>
 
-                    <a class="btn btn-primary mt-5" href="index.php?sec=add_comic">Cargar Nuevo Casa</a>
+                    <a class="btn btn-primary mt-5" href="index.php?sec=add_ph">Cargar Nuevo Casa</a>
 
         </div>
     </div>

@@ -1,7 +1,6 @@
 <?php
 
-class Inmueble
-{
+class Inmueble {
         //atributos
         protected $id;
         protected $tipo;
@@ -68,7 +67,7 @@ class Inmueble
                 $query = "UPDATE inmobiliaria SET
                 tipo = :tipo,
                 venta = :venta,
-                barrio = :barrio,
+                barrio = :barrio, 
                 calle = :calle,
                 ambientes = :ambientes,
                 condicion = :condicion,
@@ -156,10 +155,8 @@ class Inmueble
                 $query = "SELECT * FROM inmobiliaria";
 
                 $PDOStatment = $conexion->prepare($query);
-
                 $PDOStatment->setFetchMode(PDO::FETCH_CLASS, self::class);
                 $PDOStatment->execute();
-
                 $catalogo = $PDOStatment->fetchAll();
 
                 return $catalogo;

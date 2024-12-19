@@ -42,10 +42,6 @@
 
         header("Location: ../index.php?sec=admin_ph");
     } catch (\Exception $e) {
-        die("No se pudo cargar el personaje".  $e);
+        die("No se pudo cargar".  $e);
     }
-
-
-
-
 ?>

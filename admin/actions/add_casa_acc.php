@@ -19,27 +19,10 @@
     echo "</pre>";*/
 
     try {
-        $imagen = (new Imagen())-> subirImagen(__DIR__ . "/../../img/casas/casas" , $fileData);
+        $imagen = (new Imagen())-> subirImagen(__DIR__ . "/../../img/todos/casas" , $fileData);
 
+        (new Casa())->insert($postData['tipo'],$postData['venta'],$postData['barrio'],$postData['calle'],$postData['ambientes'],$postData['condicion'],$postData['orientacion'],$postData['terraza'],$postData['cochera'],$postData['espacios'],$imagen,$postData['id_casa'],$postData['id_departamento'],$postData['id_ph']);
 
-
-        (new Casa())->insert(
-            $postData['tipo'],
-            $postData['venta'],
-            $postData['barrio'],
-            $postData['calle'],
-            $postData['ambientes'],
-            $postData['condicion'],
-            $postData['orientacion'],
-            $postData['terraza'],
-            $postData['cochera'],
-            $postData['espacios'],
-            $imagen,
-            $postData['id_casa'],
-            $postData['id_departamento'],
-            $postData['id_ph']
-        
-        );
 
         header("Location: ../index.php?sec=admin_casa");
     } catch (\Exception $e) {

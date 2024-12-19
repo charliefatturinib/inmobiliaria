@@ -42,7 +42,7 @@
 
         header("Location: ../index.php?sec=admin_departamento");
     } catch (\Exception $e) {
-        die("No se pudo cargar el personaje".  $e);
+        die("No se pudo cargar".  $e);
     }
 
 

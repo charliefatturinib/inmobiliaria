@@ -3,9 +3,9 @@
 
 $id = $_GET['id'] ?? FALSE;
 
-$miObjetoinmueble = new Inmueble();
+$miObjetoIn = new Inmueble();
 
-$inmueble = $miObjetoinmueble->renta_x_id($id);
+$inmueble = $miObjetoIn->renta_x_id($id);
 
 
 
